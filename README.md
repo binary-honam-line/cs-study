@@ -5,6 +5,7 @@
 1차 스터디는 **노션에서 도서를 바탕으로 진행**했으며 자료는 아래에서 확인 가능합니다.
 
 📖 **1차 스터디 자료**: [🔗 노션 링크](https://www.notion.so/goormkdx/2-15ac0ff4ce3180c08667ef6b3b0a2cda?pvs=4)  (접근 권한 요청 필요)
+
 📚 **활용 교재**: _이것이 취업을 위한 컴퓨터 과학이다 with CS 기술 면접_ - 강민철 저  
 📆 **기간**: `2024-12-19` ~ `2025-01-31`
 
@@ -102,6 +103,7 @@ week-XX/닉네임-주제
 #### 🚀 CI/CD
 
 ✅ CI/CD Pipeline Explained in Simple Terms – 잭: `1주차`
+
 ✅ Netflix Tech Stack (CI/CD Pipeline) – 잭: `1주차`
 
 #### 🏛 Architecture Patterns
@@ -150,7 +152,9 @@ week-XX/닉네임-주제
 #### 🌲 GIT
 
 ✅ How Git Commands work – 킨: `1주차`
+
 ✅ How does Git Work? – 킨: `1주차`
+
 ✅ Git merge vs. Git rebase – 킨: `1주차`
 
 #### ☁️ Cloud Services
@@ -166,11 +170,13 @@ week-XX/닉네임-주제
 #### 🐧 Linux
 
 ✅ Linux file system explained – 세미: `1주차`
+
 ✅ 18 Most-used Linux Commands You Should Know – 세미: `1주차`
 
 #### 🔐 Security
 
 ✅ How does HTTPS work? – 헤이든: `1주차`
+
 ✅ Oauth 2.0 Explained With Simple Terms – 헤이든: `1주차`
 - Top 4 Forms of Authentication Mechanisms – 발표자: TBD
 - Session, cookie, JWT, token, SSO, and OAuth 2.0 - what are they? – 발표자: TBD
