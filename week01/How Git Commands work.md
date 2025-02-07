@@ -50,6 +50,6 @@ git clone https://github.com/keen1014/qwhfquiwehfldcas.wqefshf? 내용을 복제
 
 git push  remote repository로 보낸다.
 
-git pull remote repository에 있는 내용을 가져온다.
+git pull remote repository에 있는 내용을 가져온다. (** 이때 주의 할 점으로 가져오면서 자동으로 merge가 됨)
 
 git fetch remote repositiory에서 변경 내용을 가져온다.
