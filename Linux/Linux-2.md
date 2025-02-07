@@ -31,6 +31,7 @@
 
 ```bash
 grep "error" /var/log/syslog
+# var/log/syslog 에서 "error"라는 단어가 포함된 줄을 검색
 
 ```
 
@@ -38,6 +39,11 @@ grep "error" /var/log/syslog
 
 ```bash
 find /home -type f -name "document.txt"
+# 홈 디렉터리(/home)에서 document.txt라는 이름의 파일을 찾는 명령어
+# -type f : 파일만 검색 + 디렉터리는 제외
+
+find /var/log -type f -name "*.log"
+# /var/log 디렉터리에서 .log 확장자를 가진 모든 파일 찾기
 
 ```
 
@@ -87,6 +93,8 @@ vi file.txt
 # ESC + :wq : 저장 후 종료
 
 ```
+> ※ vim, vi 차이점
+>  vim = Vi Improved -> vi 확장버전이 vim 이다.
 
 ---
 
@@ -109,6 +117,8 @@ ps aux | grep apache
 
 ```bash
 kill -9 1234
+# -9 : kill 옵션 중 하나. 강제 종료 + 저장 작업 없이 즉시 종료된다.
+# -15 : default 종료 요청 + 종료 작업 수행 후 종료
 
 ```
 
@@ -133,12 +143,18 @@ top
 ```bash
 df -h
 
+#Filesystem      Size  Used Avail Use% Mounted on
+#/dev/root       6.8G  2.4G  4.4G  36% /
+#tmpfs           479M     0  479M   0% /dev/shm
+#tmpfs           192M  892K  191M   1% /run
+
 ```
 
 ✔ **디렉터리별 사용량 보기**
 
 ```bash
-du -sh /var/log
+du sh -back
+# 17M     back/
 
 ```
 
