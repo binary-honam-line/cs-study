@@ -13,7 +13,8 @@
 - 모든 리눅스 배포판이 이 표준을 엄격하게 따르는 것은 아니다. 각 배포판은 고유한 요소를 추가하거나 특정 요구 사항에 맞춰 조정되기도 한다.
 
 ## 🐧리눅스 파일 시스템 구조 정리
-image.png
+![image](https://github.com/user-attachments/assets/4108f348-5af8-407b-a828-7b4a5193e3b6)
+
 1. **/bin** 
     - essential command binaries
     - **필수 기본 명령어가 포함된 디렉터리**
